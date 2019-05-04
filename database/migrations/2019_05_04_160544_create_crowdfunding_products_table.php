@@ -15,7 +15,7 @@ class CreateCrowdfundingProductsTable extends Migration
     {
         Schema::create('crowdfunding_products', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('product_id');
+            $table->unsignedBigInteger('product_id');
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
             $table->decimal('target_amount', 10, 2);
             $table->decimal('total_amount', 10, 2)->default(0);
