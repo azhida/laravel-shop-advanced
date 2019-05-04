@@ -12,6 +12,7 @@ npm-debug.log
 yarn-error.log
 
 .idea
+/config/pay.php
 /public/js
 /public/css
 /public/fonts
