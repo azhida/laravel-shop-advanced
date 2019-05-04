@@ -1,8 +1,8 @@
 -- MySQL dump 10.13  Distrib 5.7.22, for Linux (x86_64)
 --
--- Host: localhost    Database: laravel-shop
+-- Host: 47.106.128.245    Database: laravel-shop
 -- ------------------------------------------------------
--- Server version	5.7.22-0ubuntu18.04.1
+-- Server version	5.5.60-MariaDB
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -21,7 +21,7 @@
 
 LOCK TABLES `admin_menu` WRITE;
 /*!40000 ALTER TABLE `admin_menu` DISABLE KEYS */;
-INSERT INTO `admin_menu` VALUES (1,0,1,'首页','fa-bar-chart','/',NULL,NULL,'2019-05-01 11:57:25'),(2,0,4,'系统管理','fa-tasks',NULL,NULL,NULL,'2019-05-01 13:15:44'),(3,2,5,'管理员','fa-users','auth/users',NULL,NULL,'2019-05-01 13:15:44'),(4,2,6,'角色','fa-user','auth/roles',NULL,NULL,'2019-05-01 13:15:44'),(5,2,7,'权限','fa-ban','auth/permissions',NULL,NULL,'2019-05-01 13:15:44'),(6,2,8,'菜单','fa-bars','auth/menu',NULL,NULL,'2019-05-01 13:15:44'),(7,2,9,'操作日志','fa-history','auth/logs',NULL,NULL,'2019-05-01 13:15:44'),(8,0,2,'用户管理','fa-users','/users',NULL,'2019-05-01 12:25:55','2019-05-01 12:26:33'),(9,0,3,'商品管理','fa-cubes','/products',NULL,'2019-05-01 13:15:30','2019-05-01 13:15:44');
+INSERT INTO `admin_menu` VALUES (1,0,1,'首页','fa-bar-chart','/',NULL,NULL,'2019-05-01 11:57:25'),(2,0,5,'系统管理','fa-tasks',NULL,NULL,NULL,'2019-05-04 06:41:04'),(3,2,6,'管理员','fa-users','auth/users',NULL,NULL,'2019-05-04 06:41:04'),(4,2,7,'角色','fa-user','auth/roles',NULL,NULL,'2019-05-04 06:41:04'),(5,2,8,'权限','fa-ban','auth/permissions',NULL,NULL,'2019-05-04 06:41:04'),(6,2,9,'菜单','fa-bars','auth/menu',NULL,NULL,'2019-05-04 06:41:04'),(7,2,10,'操作日志','fa-history','auth/logs',NULL,NULL,'2019-05-04 06:41:04'),(8,0,2,'用户管理','fa-users','/users',NULL,'2019-05-01 12:25:55','2019-05-01 12:26:33'),(9,0,4,'商品管理','fa-cubes','/products',NULL,'2019-05-01 13:15:30','2019-05-04 06:41:04'),(10,0,3,'类目管理','fa-bars','/categories',NULL,'2019-05-04 06:40:51','2019-05-04 06:41:03');
 /*!40000 ALTER TABLE `admin_menu` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -103,4 +103,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-03 18:41:13
+-- Dump completed on 2019-05-04  6:56:55
